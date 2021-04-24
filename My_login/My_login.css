@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background{
+    position: relative;
+    width:350px;
+    height:750px;
+    border:1px solid black;
+    background-color: #e9e9e9;
+}
+
+.top{
+    position: relative;
+    width: 350px;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    /* justify-items: center; */
+    align-items: center;
+}
+.top img{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: #e1e1e1;
+    margin:10px;
+}
+.top .login{
+    color:black;
+    font-size: 30px;
+    display: inline-block;
+    text-decoration :none;
+    margin-left: 20px;
+}
+.top .myU{
+    color:#5b93ff;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration :none;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.middle{
+    position: relative;
+    width: 350px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.middle .item{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 80px;
+    justify-content: space-around;
+    color: #5b93ff;
+    font-size: 18px;
+}
+
+.myCheck{
+    position: relative;
+    width: 350px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+    color: #5b93ff;
+}
+.myCheck .checkItems{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    /* height: 80px; */
+    /* width: 40px; */
+    padding-bottom: 15px;
+}
+
+.recommend{
+    position: relative;
+    width: 350px;
+    /* height: 100px; */
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+    color: #5b93ff;
+}
+.recommend .item{
+    /* display: flex; */
+    color:black;
+}
+.recommend .item .head{
+    width: 350px;
+    display: flex;
+    align-items: center;
+}
+.recommend img{
+    width: 60px;
+    height: 60px;
+}
+
+.line{
+    margin: 5px;
+    margin-top: 10px;
+    width: 330px;
+    height: 2px;
+    background-color: #d1d1d1;
+}
