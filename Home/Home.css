@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background{
+    /* position: relative; */
+    width:350px;
+    height:750px;
+    border:1px solid black;
+    background-image: url(../img/1/地图.jpg);
+    background-size:100% 100%;
+}
+.background img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+
+
+.top{
+    position: fixed;
+    margin: 20px;
+    height: 30px;
+}
+.top .searchBar{
+    margin: 5px;
+    background: #ffff;
+    border-radius: 15px;
+    float: left;
+    box-shadow: 1px 2px #d6d6d6;
+}
+.top .searchBar img{
+    border-radius: 14px;
+    width: 28px;
+    height: 28px;
+}
+.top .my{
+    background: #ffff;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    float: right;
+    box-shadow: 1px 2px #d6d6d6;
+}
+input{
+    border: none;
+    /* width: 100%; */
+    width: 240px;
+}
+
+.bottom{
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+}
+.bottom div{
+    background: #ffff;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    box-shadow: 1px 2px #d6d6d6;
+}
+.bottom div span{
+    color: #7da6fe;
+    text-align: center;  
+    width: 40px;  
+    display: inline-block;
+    margin: 0 auto;  
+    height: 100%;
+    line-height: 40px;  
+    font-size: 15px;
+    writing-mode: vertical-lr;
+}
